@@ -1,7 +1,0 @@
-node_modules
-.git
-src
-test
-.eslintrc.js
-jest.config.js
-tsconfig.*.json
