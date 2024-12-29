@@ -27,20 +27,29 @@
 The Library Management API is a backend application built using NestJS and MongoDB. This API provides a robust solution for managing a library system, allowing users to perform CRUD operations efficiently. It supports the following features:
 
 Add New Books: Users can add new books to the library database with important details such as Title, Author, Genre, Published Year, ISBN (unique), and Stock Count.
+
 Update Existing Books: Users can update book information with real-time validation checks, including ISBN uniqueness checks to avoid duplicates.
+
 Search Books: Provides functionality to search for books using keywords with a fuzzy search feature to enhance the search accuracy, even for partial matches.
+
 Retrieve Books: Users can fetch a list of all books or specific books from the library with detailed information.
+
 CRUD Operations: All Create, Read, Update, and Delete operations are supported securely and efficiently to manage the library's resources.
 .
 
 ## Key Features
 
 MongoDB Database: Persistent storage using MongoDB for storing book information.
+
 ISBN Uniqueness Validation: Ensures that each book in the system has a unique ISBN number for precise identification.
+
 Fuzzy Search: Allows users to search for books using keywords, providing flexibility in locating books even if exact matches are unavailable.
+
 NestJS Backend: Scalable and modular architecture built with NestJS to handle requests and execute business logic.
+
 RESTful API: Exposes endpoints that allow interaction with the system over HTTP using standard REST principles.
 
+SwaggerUI: Provides an interactive API documentation platform, making it easier for developers and users to explore and test endpoints.
 
 
 ## Tech Stack
@@ -50,6 +59,8 @@ Database: MongoDB
 Libraries: Mongoose (ODM for MongoDB)
 Fuzzy Search: Integrated for improved search results
 TypeScript: For strongly-typed JavaScript development
+SwaggerUI: For User-Friendly Documentation and Interactive
+PostmanAPI: For API testing
 
 
 ## Endpoints

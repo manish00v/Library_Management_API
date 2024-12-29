@@ -9,16 +9,16 @@ export class Book extends Document {
   @Prop({ required: true })
   author: string;
 
-  @Prop()
+  @Prop({ required: true })
   publishedYear?: number;
 
   @Prop({required: true, unique: true})
   ISBN : string;
 
-  @Prop()
+  @Prop({ required: true })
   genre?: string;
 
-  @Prop()
+  @Prop({ required: true })
   stockCount?: number;
 }
 
